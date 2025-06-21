@@ -8,9 +8,9 @@ export default function Nation() {
       {/* Centered Hero Section */}
       <div className="text-center py-16 px-4">
         <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
-          Float + Notion = your
+           Experience the future
           <br />
-          dream course platform
+          of work today
         </h1>
       </div>
 
@@ -21,13 +21,12 @@ export default function Nation() {
 
           {/* Main Content */}
           <div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Creating courses has never been easier
+            <h2 className="text-4xl lg:text-4xl font-bold text-gray-900 mb-16">
+               The Agent Business workspace for Human-Centric Augmentation.
             </h2>
-            <p className="text-2xl text-gray-600 mb-24 ">
-              You only need to focus on creating your content in Notion. We'll handle 
-              the rest.
-            </p>
+            {/* <p className="text-2xl text-gray-600 mb-24 ">
+            
+            </p> */}
 
             {/* Feature List */}
             <div className="space-y-6">
@@ -38,11 +37,11 @@ export default function Nation() {
                 </div>
                 <div>
                   <h3 className="text-3xl font-semibold text-gray-900 mb-2">
-                    Interactive course platform
+                    Unified Agentic Workspace
                   </h3>
                   <p className="text-gray-600 text-2xl ">
-                    Float adds payments, progress tracking, feedback, and hosting to your 
-                    Notion docs.
+                   Your primary interface, reducing context switching for streamlined,
+                    intuitive workflows.
                   </p>
                 </div>
               </div>
@@ -54,10 +53,11 @@ export default function Nation() {
                 </div>
                 <div>
                   <h3 className="text-3xl font-semibold text-gray-900 mb-2">
-                    Syncs with Notion
+                    Deep Contextual Intelligence
                   </h3>
                   <p className="text-gray-600 text-2xl">
-                    Don't worry about redeploying your course. Your course stays synced 1-to-1 with your Notion docs.
+                    Unparalleled relevance powered by user, business, and industry
+context. 
                   </p>
                 </div>
               </div>
@@ -69,11 +69,11 @@ export default function Nation() {
                 </div>
                 <div>
                   <h3 className="text-3xl font-semibold text-gray-900 mb-2">
-                    Super fast
+                    Seamless System Connectivity
                   </h3>
                   <p className="text-gray-600 text-2xl">
-                    Your course will load lightning fast and comes optimized for SEO out of 
-                    the box.
+                    Integrates external SaaS, protecting investments while enabling
+consolidation. 
                   </p>
                 </div>
               </div>

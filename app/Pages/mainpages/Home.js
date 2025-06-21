@@ -1,8 +1,13 @@
 "use client";
 import React, { useState } from 'react';  
+import Link from 'next/link';
+import { useRouter } from "next/navigation";
+// import Image from "./logo.jpg"
+import Contact from "../contact/Contact"
 
 const Homepage = () => {
   const [email, setEmail] = useState('');
+  const router = useRouter();
 
   return (
     <div className="min-h-screen bg-gray-50 relative overflow-hidden">
@@ -11,25 +16,25 @@ const Homepage = () => {
         <nav className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
-              </svg>
-            </div>
-            <span className="text-xl font-semibold text-gray-900">float</span>
+            <img src="/BAp.png" alt="Logo" className="w-24 h-24 object-contain" />
+            {/* <span className="text-xl font-semibold text-gray-900">float</span> */}
           </div>
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">About</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Blog</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Courses</a>
+            <Link href="/" className="text-blue-700 font-bold transition-colors">Home</Link>
+            {/* <Link href="/pricing" className="text-gray-600 hover:text-gray-900 transition-colors">Pricing</Link> */}
+            <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</Link>
           </div>
 
-          {/* Login Button */}
-          <button className="bg-gray-800 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition-colors">
-            Log in
-          </button>
+          {/* Mobile Menu Button */}
+          <div className="md:hidden">
+            <button className="text-gray-600 hover:text-gray-900">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
         </nav>
       </header>
 
@@ -98,31 +103,33 @@ const Homepage = () => {
       </div>
 
       {/* Main Content */}
-      <main className="relative z-10 max-w-4xl mx-auto px-6 py-20 text-center">
+      <main className="relative z-10 max-w-7xl mx-auto px-6 py-8 text-center">
         {/* Small Label */}
         <div className="inline-block font-semibold px-4 py-2 rounded-full text-sm text-gray-600 mb-2">
-          SIMPLE COURSE PLATFORM FOR NOTION
+         The Agentic Business Workspace for Human-Centric Augmentation
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-6xl md:text-8xl font-bold text-black mb-4 leading-">
-          Create a course<br />
-          with Notion.
+        <h1 className="text-6xl md:text-6xl font-bold text-black mb-4 leading-tight">
+         Your Work, Intelligently <br />
+          Augmented.
         </h1>
 
         {/* Description */}
-        <p className="text-xl text-gray-600  max-w-2xl mx-auto leading-relaxed">
-          Turn your docs in Notion into a fully operational online course in minutes.
+        <p className="text-xl text-gray-600 max-w-1xl mx-auto leading-relaxed">
+         Designed to fundamentally reshape how organizations and individuals perform their work.
         </p>
         <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-          All the power of a traditional course platform, built in the same place you
-          take notes.
+           It
+fundamentally reshapes how you work by enhancing human capabilities and focusing your efforts on
+high-value activities.
         </p>
 
         {/* Waitlist Section */}
         <div className="mb-6">
           <p className="text-black font-semibold mb-6">
-            Join Blake, Zack, and 2165 others on the waitlist.
+            Join the waitlist and be among the first to experience intelligent human augmentation!
+
           </p>
 
           {/* Email Form */}
@@ -134,7 +141,7 @@ const Homepage = () => {
               onChange={(e) => setEmail(e.target.value)}
               className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
-            <button className="bg-blue-400 text-blue-800 font-semibold px-8 py-3 rounded-lg hover:bg-blue-500 text-white transition-colors font-medium">
+            <button className="bg-blue-400 text-blue-800 font-semibold px-8 py-3 rounded-lg hover:bg-blue-500 hover:text-white transition-colors font-medium">
               Request access
             </button>
           </div>

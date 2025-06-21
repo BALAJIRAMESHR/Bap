@@ -1,8 +1,8 @@
 "use client";
-import React, { useState } from "react";
 
-const Contact = () => {
-  
+import React, { useState } from 'react';
+
+const AirtableLanding = () => {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -291,4 +291,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default AirtableLanding;

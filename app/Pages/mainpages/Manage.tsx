@@ -224,11 +224,9 @@ export default function ManagePage() {
           <div className="max-w-3xl w-full">
             {/* Header */}
             <div className="mb-8">
-              <h1 className="text-3xl font-bold text-gray-900 mb-4">Manage everything in one place</h1>
+              <h1 className="text-3xl font-bold text-gray-900 mb-4">Achieve More. Work Smarter</h1>
               <p className="text-gray-600 leading-relaxed">
-                Use our <span className="text-blue-600 font-medium underline cursor-pointer">Notion dashboard template</span> to run your entire course business all 
-                from one single Notion page. Just connect the Float integration and 
-                you're ready to go.
+               Beyond Tasks, Towards Impact – Unlock Your Organization's True Potential
               </p>
             </div>
 
@@ -241,9 +239,11 @@ export default function ManagePage() {
                     <CreditCard className="w-6 h-6 text-blue-600" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">All your payments in one place</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Better System Consolidation</h3>
                     <p className="text-gray-600">
-                      Manage all of your payment data in a Notion database.
+                      Unify disparate systems, addressing fragmentation and reducing
+complexity and cost.
+
                     </p>
                   </div>
                 </div>
@@ -256,10 +256,11 @@ export default function ManagePage() {
                     <TrendingUp className="w-6 h-6 text-blue-600" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Improve your courses with feedback</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Universal, Intuitive Access</h3>
                     <p className="text-gray-600">
-                      Hear what your users are saying and adjust your content accordingly to 
-                      continuously improve your courses.
+                      BAP is engineered for ease of use, accessible to all, no deep tech
+expertise needed
+
                     </p>
                   </div>
                 </div>
@@ -272,10 +273,10 @@ export default function ManagePage() {
                     <Zap className="w-6 h-6 text-blue-600" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Instant Updates</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Space for Human Creativity</h3>
                     <p className="text-gray-600">
-                      Watch your Notion dashboard update as payments and feedback come in 
-                      real-time.
+                       Liberate human potential from drudgery for strategic thinking and
+impactful contributions
                     </p>
                   </div>
                 </div>
